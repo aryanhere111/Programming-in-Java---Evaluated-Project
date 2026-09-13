@@ -386,13 +386,8 @@ The project can be improved by adding:
 * 👤 User registration and login
 * 📚 Dynamic book availability
 * 🔄 Book return functionality
-* 📅 Automatic due-date calculation
 * ⏰ Overdue book detection
-* 💰 Fine calculation for late returns
-* 🔎 Book search functionality
-* 🗄️ Database integration
 * 📄 Support for PDFs and other files
-* 🖥️ Graphical User Interface (GUI)
 * 🌐 Web-based library interface
 * 👨‍💼 Admin panel for managing books
 * 💾 Permanent storage of user and book information
