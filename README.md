@@ -377,22 +377,7 @@ Book is issued, return time is 15 Days, return it on time!!
 
 ---
 
-## ⚠️ Current Limitations
 
-The current version is a basic implementation and has some limitations:
-
-* Book issue status is not stored dynamically.
-* The program does not maintain a list of users.
-* There is no login or registration system.
-* Book return functionality is not implemented.
-* The 15-day deadline is displayed but not calculated automatically.
-* Books are stored using arrays instead of a database.
-* The "Other Files" option is not implemented yet.
-* Book names must match the expected spelling used in the program.
-* The program does not permanently save issue information.
-* The Exit option is displayed but is not yet handled separately in the current code.
-
----
 
 ## 🚀 Future Enhancements
 
