@@ -1,4 +1,4 @@
-# 📚 Library Management System
+#  Library Management System
 
 A simple **console-based Library Management System** developed in **Java** using basic programming concepts such as arrays, loops, conditional statements, and user input with `Scanner`.
 
@@ -6,23 +6,23 @@ The project allows a user to register with a username and password, log in, sele
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 👤 User registration
-* 🔐 Username and password login
-* 📚 Book domain selection
-* 💻 Programming books
-* 🤖 AI books
-* 🗄️ Database books
-* 📖 Book availability display
-* 📋 Book issuing system
-* ⏳ 15-day return period message
-* 🔄 Continuous library menu
-* 🚪 Exit option can be added/extended
+*  User registration
+*  Username and password login
+*  Book domain selection
+*  Programming books
+*  AI books
+*  Database books
+*  Book availability display
+*  Book issuing system
+*  15-day return period message
+*  Continuous library menu
+*  Exit option can be added/extended
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **Java**
 * **Java Scanner Class**
@@ -34,7 +34,7 @@ The project allows a user to register with a username and password, log in, sele
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Library-Management-System/
@@ -45,7 +45,7 @@ Library-Management-System/
 
 ---
 
-## 📖 Available Books
+##  Available Books
 
 The system currently contains the following books:
 
@@ -60,7 +60,7 @@ The system currently contains the following books:
 
 ---
 
-## 🔑 How the Login System Works
+##  How the Login System Works
 
 When the program starts, the user creates a username and password.
 
@@ -87,8 +87,7 @@ The program then compares the entered login details with the username and passwo
 
 ---
 
-## 📚 How to Use the Library
-
+##  How to Use the Library
 After successful login, the user can select:
 
 ```text
@@ -123,7 +122,7 @@ Book is issued, return time is 15 Days, return it on time!!
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Install Java
 
@@ -171,7 +170,7 @@ java Library
 
 ---
 
-## 🧠 Concepts Demonstrated
+##  Concepts Demonstrated
 
 This project demonstrates several fundamental Java concepts.
 
@@ -223,7 +222,7 @@ book.equals("Machine Learning")
 
 ---
 
-## 🏗️ Basic Program Flow
+##  Basic Program Flow
 
 ```text
         START
@@ -275,7 +274,7 @@ Book      Main Menu
 
 ---
 
-## 🎯 Learning Objective
+##  Learning Objective
 
 The main objective of this project is to understand and implement fundamental **Java programming concepts** by developing a practical console-based application.
 
@@ -292,7 +291,7 @@ Through this project, we learn how to work with:
 
 ---
 
-## 👨‍💻 Project Type
+##  Project Type
 
 **Console-Based Java Project**
 
@@ -304,7 +303,7 @@ Through this project, we learn how to work with:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 The Library Management System is a beginner-friendly Java project that demonstrates how basic programming concepts can be combined to create a practical application.
 
