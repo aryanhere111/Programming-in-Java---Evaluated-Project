@@ -422,6 +422,3 @@ By completing this project, students can gain practical understanding of:
 
 ---
 
-## 📜 License
-
-This project is created for **educational and academic purposes**. You are free to modify and improve the project for learning.
