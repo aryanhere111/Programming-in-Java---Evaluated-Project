@@ -416,15 +416,9 @@ By completing this project, students can gain practical understanding of:
 
 **Category:** Java Programming / Library Management
 
-**Level:** Beginner
 
 ---
 
-## 👨‍💻 Author
-
-**Aryan Srivastava**
-
-B.Tech – Artificial Intelligence & Machine Learning
 
 ---
 
