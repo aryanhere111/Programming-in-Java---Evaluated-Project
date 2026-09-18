@@ -4,8 +4,74 @@ A simple **console-based Library Management System** developed in **Java** using
 
 The project allows a user to register with a username and password, log in, select a book domain, and issue available books.
 
-![Uploading diagram.png…]()
+flowchart TD
 
+subgraph group_authentication["Authentication"]
+  node_registration["User Registration<br/>[code.java]"]
+  node_session_credentials["Session Credentials<br/>[code.java]"]
+  node_login["Login Check<br/>[code.java]"]
+end
+
+subgraph group_library_flow["Library Flow"]
+  node_library_main["Library Main<br/>[code.java]"]
+  node_menu_loop["Library Menu Loop<br/>[code.java]"]
+  node_domain_selection["Domain Selection<br/>[code.java]"]
+  node_other_files["Other Files Branch<br/>[code.java]"]
+  node_exit_choice["Exit Choice<br/>[code.java]"]
+end
+
+subgraph group_book_data["Book Data"]
+  node_catalog_arrays["Catalog Arrays<br/>[code.java]"]
+  node_programming_books["Programming Books<br/>[code.java]"]
+  node_ai_books["AI Books<br/>[code.java]"]
+  node_database_books["Database Books<br/>[code.java]"]
+  node_issue_check["Issue Check<br/>[code.java]"]
+  node_return_notice["Return Notice<br/>[code.java]"]
+end
+
+node_user(("Library User"))
+
+node_user -->|"provides input"| node_library_main
+node_library_main -->|"starts registration"| node_registration
+node_registration -->|"stores credentials"| node_session_credentials
+node_library_main -->|"starts login"| node_login
+node_login -->|"reads credentials"| node_session_credentials
+node_library_main -->|"enters menu"| node_menu_loop
+node_library_main -->|"initializes catalog"| node_catalog_arrays
+node_menu_loop -->|"dispatches books"| node_domain_selection
+node_menu_loop -->|"selects branch"| node_other_files
+node_menu_loop -->|"offers choice"| node_exit_choice
+node_domain_selection -->|"selects category"| node_programming_books
+node_domain_selection -->|"selects category"| node_ai_books
+node_domain_selection -->|"selects category"| node_database_books
+node_domain_selection -->|"continues issuing"| node_issue_check
+node_issue_check -->|"prints deadline"| node_return_notice
+
+click node_library_main "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_registration "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_session_credentials "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_login "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_menu_loop "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_domain_selection "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_other_files "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_exit_choice "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_catalog_arrays "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_programming_books "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_ai_books "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_database_books "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_issue_check "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+click node_return_notice "https://github.com/aryanhere111/programming-in-java---evaluated-project/blob/main/code.java"
+
+classDef toneNeutral fill:#f8fafc,stroke:#334155,stroke-width:1.5px,color:#0f172a
+classDef toneBlue fill:#dbeafe,stroke:#2563eb,stroke-width:1.5px,color:#172554
+classDef toneAmber fill:#fef3c7,stroke:#d97706,stroke-width:1.5px,color:#78350f
+classDef toneMint fill:#dcfce7,stroke:#16a34a,stroke-width:1.5px,color:#14532d
+classDef toneRose fill:#ffe4e6,stroke:#e11d48,stroke-width:1.5px,color:#881337
+classDef toneIndigo fill:#e0e7ff,stroke:#4f46e5,stroke-width:1.5px,color:#312e81
+classDef toneTeal fill:#ccfbf1,stroke:#0f766e,stroke-width:1.5px,color:#134e4a
+class node_registration,node_session_credentials,node_login,node_user toneBlue
+class node_library_main,node_menu_loop,node_domain_selection,node_other_files,node_exit_choice toneAmber
+class node_catalog_arrays,node_programming_books,node_ai_books,node_database_books,node_issue_check,node_return_notice toneMint
 
 
 
