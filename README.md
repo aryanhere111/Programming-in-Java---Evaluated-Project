@@ -4,6 +4,12 @@ A simple **console-based Library Management System** developed in **Java** using
 
 The project allows a user to register with a username and password, log in, select a book domain, and issue available books.
 
+![Uploading diagram.png…]()
+
+
+
+
+
 ---
 
 ##  Features
